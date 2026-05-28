@@ -1,5 +1,5 @@
+🎓 GradeBook PRO EDITION
 ## GradeBook PRO EDITION (Java Swing Dashboard)
-
 A professional **Java Swing** desktop dashboard to manage student grades with **Login/Logout**, **CRUD**, **Analytics**, and **Permanent Storage** (file-based).
 
 ### Features
@@ -33,9 +33,13 @@ A professional **Java Swing** desktop dashboard to manage student grades with **
   - Toggle from menu: `View → Toggle Dark Mode`
 
 ### Tech Stack
-- Java (Swing)
-- `ArrayList`
-- OOP (Classes, Objects, Methods)
+
+- Java
+- Java Swing
+- JFreeChart
+- ArrayList
+- OOP Concepts
+- File Handling
 
 ### Folder Structure (GitHub Upload)
 ```
@@ -72,13 +76,12 @@ scripts\run_gui.bat
 ```
 
 ### Admin Login
-Credentials are stored in:
+
+Admin credentials are securely stored in:
+
 - `data/admin.properties`
 
-Default credentials:
-- **Username**: `admin`
-- **Password**: `admin123`
-
+On first launch, the application allows the administrator to create custom login credentials.
 ### Data Storage
 Student records are stored in:
 - `data/students.csv`
@@ -103,17 +106,91 @@ Use menu:
 ========================================
 
 Total Students : 3
-Average Marks  : 78.33
+Average Marks  : 70.33
 Pass Percentage: 66.67%
-Highest Marks  : Asha (92)
-Lowest Marks   : Ravi (60)
+Highest Marks  : sath(100)
+Lowest Marks   : nitin(35)
 
---- All Students ---
- 1) Asha                      92  Grade: A
- 2) Ravi                      60  Grade: C
- 3) Neha                      83  Grade: B
+--- All Students --- 
+1) sath           100 Grade: A 
+2) shiv           76 Grade: B 
+3) nitin          35 Grade: F
 ```
 
 ### Notes
 - Marks are restricted to **0–100** using a spinner.
 - This is a **100% Java desktop app** (no web frontend/backend).
+
+## Screenshots
+
+### Login Screen
+
+![Login Screen](screenshots/login-screen.png)
+
+### Main Dashboard
+
+![Main Dashboard](screenshots/main-dashboard.png)
+
+### Analytics Dashboard
+
+![Analytics Dashboard](screenshots/analytics-dashboard.png)
+
+### Export Menu
+
+![Export Menu](screenshots/export-menu.png)
+
+### Student Profile
+
+![Student Profile](screenshots/student-profile.png)
+
+### Search Feature
+
+![Search Feature](screenshots/search-feature.png)
+
+### Edit Student
+
+![Edit Student](screenshots/edit-student.png)
+
+### Delete Confirmation
+
+![Delete Confirmation](screenshots/delete-confirmation.png)
+
+### Logout Popup
+
+![Logout Popup](screenshots/logout-popup.png)
+
+### Invalid Login Popup
+
+![Invalid Login Popup](screenshots/invalid-login-popup.png)
+
+---
+
+## Future Improvements
+
+* MySQL database integration
+* Advanced PDF report generation
+* Attendance management
+* Student profile images
+* Leaderboard system
+* Semester-wise analytics
+* Role-based authentication
+
+---
+
+## Project Purpose
+
+This project was developed as a professional **Java Swing desktop application** for:
+
+* Internship showcase
+* GitHub portfolio
+* Resume projects
+* Mini/Major project demonstration
+* Learning Java GUI + OOP concepts
+
+---
+
+## Developer Information
+
+Sathwikadondapati25  
+B.Tech CSE Student  
+Java & Software Development Enthusiast
