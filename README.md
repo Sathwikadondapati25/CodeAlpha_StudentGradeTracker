@@ -1,87 +1,77 @@
 # 🎓 GradeBook PRO EDITION
 
-A professional Java Swing desktop dashboard to manage student grades with Login/Logout, CRUD operations, Analytics, and Permanent Storage using file handling.
+GradeBook PRO EDITION is a Java Swing based desktop application developed to manage student records, marks, and performance analytics in a clean and interactive dashboard interface.
+
+The project was built to practice Java GUI development, OOP concepts, file handling, and desktop application design while creating something that feels like a real management software.
 
 ---
 
 ## ✨ Features
 
-### 🔐 Login + Logout System
-- Admin login page
-- Username/password validation
-- Secure logout from menu
+### 🔐 Authentication System
 
-### 👨‍🎓 Student Management (CRUD)
-- Add student
-- Edit selected student
-- Delete selected student
-- Dynamic search by name
-- Student profile popup (double-click row)
+* Admin Login & Logout
+* Username and Password Validation
+* First-Time Admin Account Setup
 
-### 📊 Grade System
-- Automatic grade calculation (A, B, C, F)
-- Pass/Fail status
-- Average / Highest / Lowest marks
+### 👨‍🎓 Student Management
 
-### 📈 Dashboard Analytics
-- Total students card
-- Pass percentage card
-- Grade distribution chart
-- Performance statistics visualization
+* Add Student
+* Edit Student Details
+* Delete Student Records
+* Search Students by Name
+* Student Profile Popup
 
-### 💾 Permanent Storage (File Handling)
-- Auto-load on startup
-- Auto-save after every change
-- Stores data in `data/students.csv`
+### 📊 Grade & Analytics System
+
+* Automatic Grade Calculation
+* Pass / Fail Status
+* Average, Highest, and Lowest Marks
+* Dashboard Statistics Cards
+* Performance Charts & Analytics
+
+### 💾 File Storage
+
+* Permanent Student Data Storage
+* Auto Save & Auto Load
+* CSV Based File Handling
 
 ### 📤 Export Features
-- Export CSV
-- Export PDF report
 
-### 🌙 Dark Mode
-- Toggle Dark Mode from:
-  `View → Toggle Dark Mode`
+* Export Student Data to CSV
+* Export Reports to PDF
 
----
+### 🌙 UI Features
 
-## 🛠️ Tech Stack
-
-- Java
-- Java Swing
-- JFreeChart
-- ArrayList
-- OOP Concepts
-- File Handling
+* Modern Java Swing Dashboard
+* Dark Mode Support
+* Professional Sidebar Layout
+* Interactive Tables and Popups
 
 ---
 
-## 📁 Folder Structure
+## 🛠️ Technologies Used
 
-```text
+* Java
+* Java Swing
+* JFreeChart
+* File Handling
+* ArrayList
+* OOP Concepts
+
+---
+
+## 📁 Project Structure
+
+```text id="vv1m1m"
 CodeAlpha_StudentGradeTracker/
-├─ data/
-│  ├─ admin.properties
-│  └─ students.csv
-├─ screenshots/
-├─ scripts/
-│  └─ run_gui.bat
-├─ src/
-│  ├─ Student.java
-│  ├─ StudentService.java
-│  ├─ LoginFrame.java
-│  ├─ DashboardFrame.java
-│  ├─ GradeBookDashboardPanel.java
-│  ├─ StudentEditDialog.java
-│  ├─ StudentProfileDialog.java
-│  ├─ FileStore.java
-│  ├─ CsvUtil.java
-│  ├─ PdfExporter.java
-│  ├─ ThemeManager.java
-│  ├─ Validator.java
-│  └─ GradeTrackerGUI.java
-├─ Main.java
-└─ README.md
-````
+├── data/
+├── screenshots/
+├── scripts/
+├── src/
+├── Main.java
+└── README.md
+```
 
 ---
 
@@ -91,25 +81,25 @@ CodeAlpha_StudentGradeTracker/
 
 * Java JDK 17+
 
-### Run Application
+### Run the Application
 
-Open terminal in project folder and run:
+Open terminal in the project folder and run:
 
-```bat
+```bat id="uvzvsm"
 scripts\run_gui.bat
 ```
 
 ---
 
-## 🔑 Admin Login
+## 🔑 Admin Setup
 
-Admin credentials are securely stored in:
+Admin credentials are stored inside:
 
-```text
+```text id="xx9td9"
 data/admin.properties
 ```
 
-On first launch, the application allows the administrator to create custom login credentials.
+When the application is launched for the first time, it allows the administrator to create custom login credentials.
 
 ---
 
@@ -117,87 +107,11 @@ On first launch, the application allows the administrator to create custom login
 
 Student records are stored in:
 
-```text
+```text id="2h2k2q"
 data/students.csv
 ```
 
-The application automatically:
-
-* Loads data on startup
-* Saves data after every change
-
----
-
-## 📤 Export Options
-
-Available from menu:
-
-* `File → Export CSV...`
-* `File → Export PDF...`
-
----
-
-## 🧠 Beginner Explanation
-
-### Frontend (UI)
-
-Built using Java Swing:
-
-* `LoginFrame`
-* `DashboardFrame`
-* `GradeBookDashboardPanel`
-
-### Backend (Logic)
-
-Handled using:
-
-* `StudentService`
-* ArrayList operations
-* Analytics calculations
-
-### Storage Layer
-
-Managed using:
-
-* `FileStore`
-* CSV file handling
-* Admin credential storage
-
-### Utilities
-
-* `Validator`
-* `CsvUtil`
-* `PdfExporter`
-* `ThemeManager`
-
----
-
-## 📄 Sample Report Output
-
-```text
-========================================
-          GRADEBOOK SUMMARY REPORT
-========================================
-
-Total Students : 3
-Average Marks  : 70.33
-Pass Percentage: 66.67%
-Highest Marks  : sath (100)
-Lowest Marks   : nitin (35)
-
---- All Students ---
-1) sath            100   Grade: A
-2) shiv             76   Grade: B
-3) nitin            35   Grade: F
-```
-
----
-
-## 📝 Notes
-
-* Marks are restricted to 0–100 using a spinner.
-* This is a 100% Java desktop application.
-* No web frontend/backend is used.
+The application automatically loads and saves data whenever changes are made.
 
 ---
 
@@ -243,30 +157,29 @@ Lowest Marks   : nitin (35)
 
 ## 🚀 Future Improvements
 
-* MySQL database integration
-* Advanced PDF report generation
-* Attendance management
-* Student profile images
-* Leaderboard system
-* Semester-wise analytics
-* Role-based authentication
+* MySQL Database Integration
+* Attendance Management Module
+* Advanced PDF Reports
+* Student Profile Images
+* Leaderboard & Ranking System
+* Semester-wise Analytics
 
 ---
 
-## 🎯 Project Purpose
+## 🎯 Purpose of the Project
 
-This project was developed as a professional Java Swing desktop application for:
+This project was developed for:
 
-* Internship showcase
-* GitHub portfolio
-* Resume projects
-* Mini/Major project demonstration
-* Learning Java GUI + OOP concepts
+* Internship Submission
+* Resume & Portfolio
+* Java Swing Practice
+* Learning OOP Concepts
+* Desktop Application Development
 
 ---
 
-## 👨‍💻 Developer Information
+## 👨‍💻 Developer
 
 **Sathwikadondapati25**
 B.Tech CSE Student
-Java & Software Development Enthusiast
+Interested in Java, Software Development, and UI Design
