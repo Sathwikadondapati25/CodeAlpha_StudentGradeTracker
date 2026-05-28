@@ -1,5 +1,4 @@
-🎓 GradeBook PRO EDITION
-## GradeBook PRO EDITION (Java Swing Dashboard)
+## 🎓GradeBook PRO EDITION
 A professional **Java Swing** desktop dashboard to manage student grades with **Login/Logout**, **CRUD**, **Analytics**, and **Permanent Storage** (file-based).
 
 ### Features
