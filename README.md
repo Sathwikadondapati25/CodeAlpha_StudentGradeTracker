@@ -80,7 +80,7 @@ CodeAlpha_StudentGradeTracker/
 │  └─ run_gui.bat
 ├─ Main.java
 └─ README.md
-````
+```
 
 ---
 
@@ -182,7 +182,7 @@ Lowest Marks   : nitin(35)
 
 ### Search Feature
 
-![Search Feature](screenshots/live-search.png)
+![Search Feature](screenshots/search-feature.png)
 
 ### Edit Student
 
@@ -198,7 +198,7 @@ Lowest Marks   : nitin(35)
 
 ### Invalid Login Popup
 
-![Invalid Login Popup](screenshots/invalid-login.png)
+![Invalid Login Popup](screenshots/invalid-login-popup.png)
 
 ---
 
