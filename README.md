@@ -131,9 +131,6 @@ Lowest Marks   : nitin(35)
 
 ![Main Dashboard](screenshots/main-dashboard.png)
 
-### Analytics Dashboard
-
-![Analytics Dashboard](screenshots/analytics-dashboard.png)
 
 ### Export Menu
 
