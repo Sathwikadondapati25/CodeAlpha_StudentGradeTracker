@@ -1,50 +1,50 @@
-````md
 # 🎓 GradeBook PRO EDITION
 
-A professional Java Swing desktop dashboard to manage student grades with Login/Logout, CRUD, Analytics, and Permanent Storage (file-based).
+A professional Java Swing desktop dashboard to manage student grades with Login/Logout, CRUD operations, Analytics, and Permanent Storage using file handling.
 
 ---
 
-## Features
+## ✨ Features
 
-### Login + Logout System
+### 🔐 Login + Logout System
 - Admin login page
 - Username/password validation
-- Logout from menu
+- Secure logout from menu
 
-### Student Management (CRUD)
+### 👨‍🎓 Student Management (CRUD)
 - Add student
 - Edit selected student
 - Delete selected student
 - Dynamic search by name
 - Student profile popup (double-click row)
 
-### Grade System
-- Auto grade calculation (A, B, C, F)
+### 📊 Grade System
+- Automatic grade calculation (A, B, C, F)
 - Pass/Fail status
-- Average / Highest / Lowest
+- Average / Highest / Lowest marks
 
-### Dashboard Analytics
+### 📈 Dashboard Analytics
 - Total students card
 - Pass percentage card
-- Grade distribution bars
-- Performance statistics cards
+- Grade distribution chart
+- Performance statistics visualization
 
-### Permanent Storage (File Handling)
+### 💾 Permanent Storage (File Handling)
 - Auto-load on startup
-- Auto-save on every change
+- Auto-save after every change
 - Stores data in `data/students.csv`
 
-### Export
+### 📤 Export Features
 - Export CSV
-- Export PDF (simple 1-page report)
+- Export PDF report
 
-### Dark Mode
-- Toggle from menu: `View → Toggle Dark Mode`
+### 🌙 Dark Mode
+- Toggle Dark Mode from:
+  `View → Toggle Dark Mode`
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Java
 - Java Swing
@@ -55,13 +55,16 @@ A professional Java Swing desktop dashboard to manage student grades with Login/
 
 ---
 
-## Folder Structure (GitHub Upload)
+## 📁 Folder Structure
 
 ```text
 CodeAlpha_StudentGradeTracker/
 ├─ data/
 │  ├─ admin.properties
 │  └─ students.csv
+├─ screenshots/
+├─ scripts/
+│  └─ run_gui.bat
 ├─ src/
 │  ├─ Student.java
 │  ├─ StudentService.java
@@ -76,19 +79,21 @@ CodeAlpha_StudentGradeTracker/
 │  ├─ ThemeManager.java
 │  ├─ Validator.java
 │  └─ GradeTrackerGUI.java
-├─ scripts/
-│  └─ run_gui.bat
 ├─ Main.java
 └─ README.md
-```
+````
 
 ---
 
-## How to Run (Windows / VS Code)
+## ▶️ How to Run
 
-1. Install Java JDK 17+
-2. Open terminal in project folder
-3. Run:
+### Requirements
+
+* Java JDK 17+
+
+### Run Application
+
+Open terminal in project folder and run:
 
 ```bat
 scripts\run_gui.bat
@@ -96,45 +101,78 @@ scripts\run_gui.bat
 
 ---
 
-## Admin Login
+## 🔑 Admin Login
 
 Admin credentials are securely stored in:
 
-* `data/admin.properties`
+```text
+data/admin.properties
+```
 
 On first launch, the application allows the administrator to create custom login credentials.
 
 ---
 
-## Data Storage
+## 💽 Data Storage
 
 Student records are stored in:
 
-* `data/students.csv`
+```text
+data/students.csv
+```
 
-The app auto-loads this file at startup and auto-saves after changes.
+The application automatically:
+
+* Loads data on startup
+* Saves data after every change
 
 ---
 
-## Export
+## 📤 Export Options
 
-Use menu:
+Available from menu:
 
 * `File → Export CSV...`
 * `File → Export PDF...`
 
 ---
 
-## Beginner Explanation (Frontend + Backend in Java)
+## 🧠 Beginner Explanation
 
-* Frontend (UI): Swing screens (`LoginFrame`, `DashboardFrame`, `GradeBookDashboardPanel`)
-* Backend (Logic): `StudentService` (ArrayList + analytics)
-* Storage Layer: `FileStore` (CSV read/write + admin credentials file)
-* Utilities: `Validator`, `CsvUtil`, `PdfExporter`, `ThemeManager`
+### Frontend (UI)
+
+Built using Java Swing:
+
+* `LoginFrame`
+* `DashboardFrame`
+* `GradeBookDashboardPanel`
+
+### Backend (Logic)
+
+Handled using:
+
+* `StudentService`
+* ArrayList operations
+* Analytics calculations
+
+### Storage Layer
+
+Managed using:
+
+* `FileStore`
+* CSV file handling
+* Admin credential storage
+
+### Utilities
+
+* `Validator`
+* `CsvUtil`
+* `PdfExporter`
+* `ThemeManager`
 
 ---
 
-## Sample Report Output (inside the app)
+## 📄 Sample Report Output
 
 ```text
 ========================================
@@ -144,25 +182,26 @@ Use menu:
 Total Students : 3
 Average Marks  : 70.33
 Pass Percentage: 66.67%
-Highest Marks  : sath(100)
-Lowest Marks   : nitin(35)
+Highest Marks  : sath (100)
+Lowest Marks   : nitin (35)
 
 --- All Students ---
-1) sath           100 Grade: A
-2) shiv            76 Grade: B
-3) nitin           35 Grade: F
+1) sath            100   Grade: A
+2) shiv             76   Grade: B
+3) nitin            35   Grade: F
 ```
 
 ---
 
-## Notes
+## 📝 Notes
 
 * Marks are restricted to 0–100 using a spinner.
-* This is a 100% Java desktop app (no web frontend/backend).
+* This is a 100% Java desktop application.
+* No web frontend/backend is used.
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ### Login Screen
 
@@ -202,7 +241,7 @@ Lowest Marks   : nitin(35)
 
 ---
 
-## Future Improvements
+## 🚀 Future Improvements
 
 * MySQL database integration
 * Advanced PDF report generation
@@ -214,7 +253,7 @@ Lowest Marks   : nitin(35)
 
 ---
 
-## Project Purpose
+## 🎯 Project Purpose
 
 This project was developed as a professional Java Swing desktop application for:
 
@@ -226,11 +265,8 @@ This project was developed as a professional Java Swing desktop application for:
 
 ---
 
-## Developer Information
+## 👨‍💻 Developer Information
 
 **Sathwikadondapati25**
 B.Tech CSE Student
 Java & Software Development Enthusiast
-
-```
-```
