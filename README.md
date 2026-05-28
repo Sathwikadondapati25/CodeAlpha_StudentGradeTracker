@@ -1,4 +1,4 @@
-````md
+
 # 🎓 GradeBook PRO EDITION
 
 A professional Java Swing desktop dashboard to manage student grades with Login/Logout, CRUD operations, Analytics, and Permanent Storage using file handling.
@@ -7,39 +7,39 @@ A professional Java Swing desktop dashboard to manage student grades with Login/
 
 ## ✨ Features
 
-### 🔐 Login + Logout System
+## 🔐 Login + Logout System
 - Admin login page
 - Username/password validation
 - Secure logout from menu
 
-### 👨‍🎓 Student Management (CRUD)
+## 👨‍🎓 Student Management (CRUD)
 - Add student
 - Edit selected student
 - Delete selected student
 - Dynamic search by name
 - Student profile popup (double-click row)
 
-### 📊 Grade System
+## 📊 Grade System
 - Automatic grade calculation (A, B, C, F)
 - Pass/Fail status
 - Average / Highest / Lowest marks
 
-### 📈 Dashboard Analytics
+## 📈 Dashboard Analytics
 - Total students card
 - Pass percentage card
 - Grade distribution chart
 - Performance statistics visualization
 
-### 💾 Permanent Storage (File Handling)
+## 💾 Permanent Storage (File Handling)
 - Auto-load on startup
 - Auto-save after every change
 - Stores data in `data/students.csv`
 
-### 📤 Export Features
+## 📤 Export Features
 - Export CSV
 - Export PDF report
 
-### 🌙 Dark Mode
+## 🌙 Dark Mode
 - Toggle Dark Mode from:
   `View → Toggle Dark Mode`
 
@@ -82,17 +82,17 @@ CodeAlpha_StudentGradeTracker/
 │  └─ GradeTrackerGUI.java
 ├─ Main.java
 └─ README.md
-````
+```
 
 ---
 
 ## ▶️ How to Run
 
-### Requirements
+## Requirements
 
 * Java JDK 17+
 
-### Run Application
+## Run Application
 
 Open terminal in project folder and run:
 
@@ -271,4 +271,3 @@ This project was developed as a professional Java Swing desktop application for:
 **Sathwikadondapati25**
 B.Tech CSE Student
 Java & Software Development Enthusiast
-
