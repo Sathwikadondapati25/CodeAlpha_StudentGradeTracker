@@ -268,6 +268,6 @@ This project was developed as a professional Java Swing desktop application for:
 
 ## 👨‍💻 Developer Information
 
-Sathwikadondapati25
-B.Tech CSE Student
-Java & Software Development Enthusiast
+**Sathwikadondapati25**  
+  B.Tech CSE Student  
+  Java & Software Development Enthusiast
